@@ -15,7 +15,7 @@ const getPokemon = async pokemonId => {
 };
 
 const getAllPokemons = async () => {
-  const data = await $fetch('https://pokeapi.co/api/v2/pokemon?limit=151');
+  const data = await $fetch('https://pokeapi.co/api/v2/pokemon?limit=1025');
   return data.results.map((i, idx) => {
     return {
       id: idx + 1,
