@@ -7,7 +7,7 @@ const getPokemon = async pokemonId => {
   ]);
 
   const flavorTextEntry = species.flavor_text_entries.findIndex(i => {
-    return i.language.name === 'en' && i.version.name === 'y';
+    return i.language.name === 'en' && i.version.name === 'violet';
   });
   data.flavor_text = species.flavor_text_entries[flavorTextEntry].flavor_text;
 
