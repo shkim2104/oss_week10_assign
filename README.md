@@ -32,7 +32,7 @@ npm run dev
 
 ### 실행 화면
 
-![실행 화면](./public/screenshot.png)
+![실행 화면](./silhang.png)
 
 ## 3. Source Code Exploration
 ### Project Structure (주요 파일)
